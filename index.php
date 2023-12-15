@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triton Transportes</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+</head>
+
+<body>
+    <header>
+        <div>
+            <h1>Triton</h1>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="register.php">Cadastro</a></li>
+                <li><a href="login.php">Login</a></li>
+                <li><a href="cotação.html">Cotação</a></li>
+                <li><a href=#contato>Contato</a></li>
+
+            </ul>
+        </nav>
+
+    </header>
+    <div class="containerflex">
+        <div class="flex">
+            <h2 class="cor0">Economize</h2>
+            <h2>muito comprando passagens na Triton</h2>
+        </div>
+        <p>Desconto e qualidade só aqui!</p>
+    </div>
+
+    <section class="section">
+        <h2>Viagens Populares:</h2>
+        <div class="conteiner">
+
+            <div>
+                <img src="img/aparecida.jpeg" alt="Aparecida">
+                <h3>Aparecida</h3>
+                <h4>São Paulo, SP</h4>
+                <h5>valor:</h5>
+                <h6>99,90</h6>
+            </div>
+            <div>
+                <img src="img/gramado.jpeg" alt="Gramado">
+                <h3>Gramado</h3>
+                <h4>São Paulo, SP</h4>
+                <h5>valor:</h5>
+                <h6>99,90</h6>
+            </div>
+            <div>
+                <img src="img/hopiHari.jpeg" alt="Hopi Hari">
+                <h3>Hopi Hari</h3>
+                <h4>São Paulo, SP</h4>
+                <h5>valor:</h5>
+                <h6>99,90</h6>
+            </div>
+            <div>
+                <img src="img/thermasdelaranja.jpeg" alt="Thermas de Laranja">
+                <h3>Thermas de Laranja</h3>
+                <h4>São Paulo, SP</h4>
+                <h5>valor:</h5>
+                <h6>99,90</h6>
+            </div>
+        </div>
+    </section>
+
+    <section class="sobreContainer">
+        <div class="sobre">
+            <h2>Sobre Nós:</h2>
+            <div id="textoVisivel" id="textoOculto">
+                <p>
+                    A Triton Turismo é uma conceituada empresa de viagens e turismo, que atua no ramo de aluguel de
+                    ônibus, micro-ônibus e vans para viagens de curta e longa distância, com mais de 20 anos de
+                    experiência no mercado.
+                </p>
+            </div>
+            <div id="textoOculto">
+                <p>
+                    A Triton Turismo é uma conceituada empresa de viagens e turismo, que atua no ramo de aluguel de
+                    ônibus, micro-ônibus e vans para viagens de curta e longa distância, com mais de 20 anos de
+                    experiência no mercado.</p><br>
+
+                <p>
+
+                    Atendemos grupos de empresas, escolas, igrejas e eventos com veículos confiáveis.
+                    Trabalhamos com motoristas devidamente treinados, uniformizados e capacitados para atender bem o
+                    cliente.
+                </p><br>
+                <p>
+
+                Nossos veículos possuem seguro de passageiros e toda documentação conforme exigência dos órgãos e
+                entidades de trânsito brasileiro.
+                Assim garantimos uma viagem tranquila e segura aos nossos passageiros.
+                </p><br>
+            </div>
+            <button class="estilizar" onclick="toggleText()">Mostrar Mais</button>
+        </div>
+    </section>
+
+            <section id=contato>
+                <div class=" section conteiner">
+                    <div class="cor1">
+                        <h2>Entre em contato pelo Whatsapp</h2>
+                        <a href="https://api.whatsapp.com/send?phone=5511965802929"><i class="bi bi-whatsapp"></i></a>
+                        <p>Tire suas dúvias ou resolva seu problema</p>
+
+                    </div>
+                    <div class="cor2">
+                        <h2>Sigam a gente no Instagram</h2>
+                        <a href="https://www.instagram.com/triton.turismo/"><i class="bi bi-instagram"></i></a>
+                        <p>Fique por dentro das nóticias a cerca da triton</p>
+
+                    </div>
+                    <div class="cor3">
+                        <h2>Sigam a gente no Facebook</h2>
+                        <a href="https://www.facebook.com/tritontour"><i class="bi bi-facebook"></i></a>
+                        <p>Acompanhe a gente na rede social mais usada</p>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <footer>
+                <div>
+                    <a href="https://api.whatsapp.com/send?phone=5511965802929">whatsapp</a>
+                    <a href="https://www.instagram.com/triton.turismo/">instagram</a>
+                    <a href="https://www.facebook.com/tritontour">facebook</a>
+                </div>
+                <p>&copy; 2023 Triton - Todos os direitos reservados</p>
+            </footer>
+
+
+</body>
+<script src="js/script,js"></script>
+
+</html>

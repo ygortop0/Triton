@@ -1,0 +1,16 @@
+function toggleText() 
+{
+    var textoVisivel = document.getElementById("textoVisivel");
+    var textoOculto = document.getElementById("textoOculto");
+    var botao = document.querySelector("button");
+
+    if (textoVisivel.style.display === "none") {
+        textoVisivel.style.display = "block";
+        textoOculto.style.display = "none";
+        botao.innerHTML = "Mostrar Mais";
+    }else {
+        textoVisivel.style.display = "none";
+        textoOculto.style.display = "block";
+        botao.innerHTML = "Mostrar Menos";
+        }
+}
